@@ -10,7 +10,7 @@ void main()
 
 	char *str = (char*) shmat(shmid , (void*)0 , 0);
 
-	printf("Data read from memory: %s\n" , str);
+	printf("Data read from the memory: %s\n" , str);
 
 	shmdt(str);
 
